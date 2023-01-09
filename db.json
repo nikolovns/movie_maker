@@ -1,0 +1,82 @@
+{
+  "movies": [
+    {
+      "name": "Movie 1",
+      "category": [
+        "film",
+        "kids"
+      ],
+      "description": "Etiam quam lorem, bibendum euismod erat at, rutrum tincidunt lacus. Vivamus nec lacus nec leo malesuada finibus. Donec nisi libero, blandit vitae leo ut, lobortis ultrices lectus. Proin a risus eros. Donec lacinia eu libero in fringilla. Donec aliquet fermentum sapien, eu dapibus dui mollis in.",
+      "season": "",
+      "release": "2023-01-01",
+      "id": 1
+    },
+    {
+      "name": "Movie 2",
+      "category": [
+        "film",
+        "reality"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id felis eu ipsum porttitor rutrum. Vivamus vel aliquam turpis, vitae scelerisque nunc. Aenean semper vehicula ante. Donec vulputate quam eu felis hendrerit, eget suscipit libero luctus. Nunc non nunc tortor. Suspendisse at leo condimentum, porta mi et, pharetra justo.",
+      "season": "",
+      "release": "2023-01-07",
+      "id": 2
+    },
+    {
+      "name": "Movie 3",
+      "category": [
+        "kids",
+        "reality"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id felis eu ipsum porttitor rutrum. Vivamus vel aliquam turpis, vitae scelerisque nunc. Aenean semper vehicula ante. Donec vulputate quam eu felis hendrerit, eget suscipit libero luctus. Nunc non nunc tortor. Suspendisse at leo condimentum, porta mi et, pharetra justo.",
+      "season": "",
+      "release": "2023-01-05",
+      "id": 3
+    },
+    {
+      "name": "Movie 4",
+      "category": [
+        "kids",
+        "reality"
+      ],
+      "description": "Donec aliquet fermentum sapien, eu dapibus dui mollis in. Sed quis elit sem. Vestibulum egestas massa ligula, sed semper risus sagittis et. Proin a pulvinar ipsum, eget tincidunt justo. Nunc vel egestas diam, sed ornare enim.",
+      "season": "",
+      "release": "2023-06-01",
+      "id": 4
+    },
+    {
+      "name": "Movie 5-1",
+      "category": [
+        "series",
+        "kids",
+        "reality"
+      ],
+      "description": "Donec aliquet fermentum sapien, eu dapibus dui mollis in. Sed quis elit sem. Vestibulum egestas massa ligula, sed semper risus sagittis et. Proin a pulvinar ipsum, eget tincidunt justo. Nunc vel egestas diam, sed ornare enim.",
+      "season": "1",
+      "release": "2022-06-01",
+      "id": 5
+    },
+    {
+      "name": "Movie 5-2",
+      "category": [
+        "series",
+        "kids",
+        "reality"
+      ],
+      "description": "Pellentesque lacinia nisi sed sem sollicitudin sollicitudin. Vestibulum sollicitudin urna a sem ultricies maximus. Etiam sapien lacus, tempus sed lobortis quis, posuere vel sem. Cras dapibus, lorem quis iaculis tempus, sapien turpis hendrerit massa, vitae efficitur mauris ligula vel lectus.",
+      "season": "2",
+      "release": "2023-06-01",
+      "id": 6
+    },
+    {
+      "name": "Movie 6",
+      "category": [
+        "reality"
+      ],
+      "description": "Duis et neque sollicitudin, elementum nibh ut, pellentesque ipsum. Vestibulum vulputate quis arcu eu consequat. Pellentesque vitae facilisis felis.",
+      "season": "",
+      "release": "2023-01-20",
+      "id": 7
+    }
+  ]
+}
