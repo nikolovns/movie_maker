@@ -2,7 +2,7 @@
   "movies": [
     {
       "name": "Movie 1",
-      "category": [
+      "categories": [
         "film",
         "kids"
       ],
@@ -13,7 +13,7 @@
     },
     {
       "name": "Movie 2",
-      "category": [
+      "categories": [
         "film",
         "reality"
       ],
@@ -24,7 +24,7 @@
     },
     {
       "name": "Movie 3",
-      "category": [
+      "categories": [
         "kids",
         "reality"
       ],
@@ -35,7 +35,7 @@
     },
     {
       "name": "Movie 4",
-      "category": [
+      "categories": [
         "kids",
         "reality"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "name": "Movie 5-1",
-      "category": [
+      "categories": [
         "series",
         "kids",
         "reality"
@@ -58,7 +58,7 @@
     },
     {
       "name": "Movie 5-2",
-      "category": [
+      "categories": [
         "series",
         "kids",
         "reality"
@@ -70,7 +70,7 @@
     },
     {
       "name": "Movie 6",
-      "category": [
+      "categories": [
         "reality"
       ],
       "description": "Duis et neque sollicitudin, elementum nibh ut, pellentesque ipsum. Vestibulum vulputate quis arcu eu consequat. Pellentesque vitae facilisis felis.",
