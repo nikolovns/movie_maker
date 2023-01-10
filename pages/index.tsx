@@ -1,7 +1,7 @@
 import axios from "axios"
 import { GetServerSideProps } from "next"
 
-import { MovieProps, MovieType } from '../@types/MovieTypes'
+import { MovieProps, MovieType } from '../types/MovieTypes'
 import { MoviesList } from "../components/movies/MoviesList"
 
 function Homepage({ movies }: MovieType) {

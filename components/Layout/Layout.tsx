@@ -3,17 +3,17 @@ import { ReactNode } from "react"
 import { Header } from "./Header"
 
 type ChildrenProps = {
-    children: ReactNode
+	children: ReactNode
 }
 export function Layout({ children }: ChildrenProps): JSX.Element {
-    return (
-        <Container fixed>
-            <header>
-                <Header />
-            </header>
-            <main>
-                {children}
-            </main>
-        </Container>
-    )
+	return (
+		<Container fixed>
+			<header>
+				<Header />
+			</header>
+			<main>
+				{children}
+			</main>
+		</Container>
+	)
 }
