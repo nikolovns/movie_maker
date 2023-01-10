@@ -1,3 +1,4 @@
+import Container from "@mui/material/Container"
 import { ReactNode } from "react"
 import { Header } from "./Header"
 
@@ -6,13 +7,13 @@ type ChildrenProps = {
 }
 export function Layout({ children }: ChildrenProps): JSX.Element {
     return (
-        <div>
+        <Container fixed>
             <header>
                 <Header />
             </header>
             <main>
                 {children}
             </main>
-        </div>
+        </Container>
     )
 }

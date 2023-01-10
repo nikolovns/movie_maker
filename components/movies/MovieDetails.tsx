@@ -1,38 +1,60 @@
+import { CardContent, CardMedia, Grid, Paper, Typography } from "@mui/material";
 import { MovieProps } from "../../@types/MovieTypes";
 import { useFormatDate } from "../custom_hooks/format-date";
 
 export function MovieDetails({ name, description, id, release, categories, season }: MovieProps) {
 
     const { formatedDate } = useFormatDate(release);
-
     const renderCategory = categories.map((category: string) => {
         return (
-            <span key={category}>{category}</span>
+            <Paper
+                variant="outlined"
+                key={category}
+                component="span"
+                sx={{ padding: "5px", marginRight: "5px" }}
+            >
+                {category}
+            </Paper>
         )
     })
 
     return (
-        <div>
-            <h2>{name}</h2>
-            <div>
-                {
-                    season ?
-                        <p>Season {season} <span>{formatedDate}</span></p>
-                        : <p>{formatedDate}</p>
-                }
+        <CardContent>
+            <Typography variant="h2" fontSize="22px">
+                {name}
+            </Typography>
 
-            </div>
-            <div><p>{description}</p></div>
-            <div>
-                {renderCategory}
-            </div>
+            <Grid container spacing={4}>
 
-            <div>
-                <img
-                    src={`https://picsum.photos/seed/${id}/200/300`}
-                    alt={name}
-                />
-            </div>
-        </div>
+                <Grid item xs={12} md={6}>
+                    {
+                        season ?
+                            <Typography component="p">Season {season}
+                                <Typography component="span">{formatedDate}</Typography>
+                            </Typography>
+                            : <Typography component="p">{formatedDate}</Typography>
+                    }
+
+                    <Typography component="p" sx={{ margin: '10px 0' }}>
+                        {description}
+                    </Typography>
+
+                    <Typography component="div">
+                        {renderCategory}
+                    </Typography>
+                </Grid>
+
+                <Grid item xs={12} md={6}>
+                    <CardMedia
+                        component="img"
+                        image={`https://picsum.photos/seed/${id}/540/400`}
+                        alt={name}
+                        sx={{ borderRadius: "5px" }}
+                    />
+                </Grid>
+
+            </Grid>
+
+        </CardContent>
     )
 }

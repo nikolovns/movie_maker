@@ -1,3 +1,5 @@
+import { Grid, Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import { MovieProps, MovieType } from "../../@types/MovieTypes";
 import { MovieItem } from "./MovieItem";
 
@@ -10,11 +12,13 @@ export function MoviesList({ movies }: MovieType): JSX.Element {
     });
 
     return (
-        <div>
-            <h1>Movie list</h1>
-            <div>
+        <Box sx={{ flexGrow: 1 }}>
+            <Typography variant="h1" sx={{ fontSize: "24px" }}>
+                Movie list
+            </Typography>
+            <Grid container spacing={2}>
                 {renderMovies}
-            </div>
-        </div>
+            </Grid>
+        </Box>
     )
 }
